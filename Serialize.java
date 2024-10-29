@@ -8,6 +8,8 @@ import java.io.ObjectOutputStream;
 
 public class Serialize {
 	
+	// from object to byte
+	
 	private Object object;
 	
 	public Serialize(Object object) {
@@ -32,6 +34,8 @@ public class Serialize {
 				
 				// use write function to convert from object to byte'
 				// just type your instance
+				
+				// here is convert from Object to Byte
 				stream.writeObject(object);
 				
 				// now serialize done
